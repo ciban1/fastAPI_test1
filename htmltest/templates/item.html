@@ -1,0 +1,11 @@
+<html>
+   <head>
+       <title>Item Details</title>
+       <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+   </head>
+   <body>
+        <img src="{{ url_for('static', path='https://i.dailymail.co.uk/1s/2020/09/08/11/32912636-8709351-image-a-1_1599562111993.jpg') }}" alt="Cat">
+        <h1>is awesome</h1>
+        <p>Path for item ID: {{ id }}</p>
+   </body>
+</html>
